@@ -14,6 +14,7 @@
 		2E17B3D51CD6AD290099B0DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E17B3D31CD6AD290099B0DD /* LaunchScreen.storyboard */; };
 		2E17B3E01CD6AD2A0099B0DD /* kazantipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E17B3DF1CD6AD2A0099B0DD /* kazantipTests.swift */; };
 		2E17B3EB1CD6AD2A0099B0DD /* kazantipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E17B3EA1CD6AD2A0099B0DD /* kazantipUITests.swift */; };
+		2E17B3F91CD70C6D0099B0DD /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E17B3F81CD70C6D0099B0DD /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2E17B3E61CD6AD2A0099B0DD /* kazantipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kazantipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E17B3EA1CD6AD2A0099B0DD /* kazantipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kazantipUITests.swift; sourceTree = "<group>"; };
 		2E17B3EC1CD6AD2A0099B0DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E17B3F81CD70C6D0099B0DD /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				2E17B3CA1CD6AD290099B0DD /* AppDelegate.swift */,
 				2E17B3CC1CD6AD290099B0DD /* ViewController.swift */,
 				2E17B3CE1CD6AD290099B0DD /* Main.storyboard */,
+				2E17B3F81CD70C6D0099B0DD /* SettingsViewController.swift */,
 				2E17B3D11CD6AD290099B0DD /* Assets.xcassets */,
 				2E17B3D31CD6AD290099B0DD /* LaunchScreen.storyboard */,
 				2E17B3D61CD6AD290099B0DD /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				2E17B3CD1CD6AD290099B0DD /* ViewController.swift in Sources */,
 				2E17B3CB1CD6AD290099B0DD /* AppDelegate.swift in Sources */,
+				2E17B3F91CD70C6D0099B0DD /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

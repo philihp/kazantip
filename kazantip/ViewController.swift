@@ -16,53 +16,86 @@ class ViewController: UIViewController {
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var effectivePercentLabel: UILabel!
     
+    var checksumMode: Bool = false
+    var palindromeMode: Bool = false
+    var youngJeezyMode: Bool = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        tipLabel.text = "$0.00"
-        effectivePercentLabel.text = "%0.0"
-        totalLabel.text = "$0.00"
+        refresh()
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // load defaults
+        let defaults = NSUserDefaults.standardUserDefaults()
+        tipSegmentedControl.selectedSegmentIndex = defaults.integerForKey("defaultTip")
+        checksumMode = defaults.boolForKey("checksum")
+        palindromeMode = defaults.boolForKey("palindrome")
+        youngJeezyMode = defaults.boolForKey("youngJeezyMode")
+        
+        refresh()
     }
     
     @IBAction func onEditingChanged(sender: AnyObject) {
-        var percentages = [0.20, 0.22, 0.25]
-        
-        let tipPercent = percentages[tipSegmentedControl.selectedSegmentIndex]
-
-        // all numbers are in pennies
-        let subTotal = Int(NSString(string: subtotalText.text!).doubleValue * 100)
-        var tip = Int(Double(subTotal) * tipPercent)
-        var total = subTotal + tip
-        
-        while(!isPalindrome(String(total)) || !isChecksum(total)) {
-            tip = tip + 1
-            total = subTotal + tip
-        }
-        
-        var effectivePercent = Double(tip) / Double(subTotal)
-        if(effectivePercent.isNaN) {
-            effectivePercent = 0
-        }
-        
-        tipLabel.text = String(format: "$%0.2f", Double(tip)/100)
-        effectivePercentLabel.text = String(format: "%%%0.1f", effectivePercent * 100)
-        totalLabel.text = String(format: "$%0.2f", Double(total)/100)
+        refresh()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
     @IBAction func onTap(sender: AnyObject) {
         view.endEditing(true)
     }
     
+    func refresh() {
+        var percentages = [0.20, 0.22, 0.25]
+    
+        let tipPercent = percentages[tipSegmentedControl.selectedSegmentIndex]
+    
+        // all numbers are in pennies
+        let subTotal = Int(NSString(string: subtotalText.text!).doubleValue * 100)
+        var tip = Int(Double(subTotal) * tipPercent)
+        var total = subTotal + tip
+    
+        while(!isPalindrome(String(total)) || !isChecksum(total)) {
+            tip = tip + 1
+            total = subTotal + tip
+        }
+        
+        if(youngJeezyMode) {
+            tip += 2000 - total % 2000
+            total = subTotal + tip
+        }
+        
+        var effectivePercent = Double(tip) / Double(subTotal)
+        if(!effectivePercent.isFinite) {
+            effectivePercent = 0
+        }
+    
+        let formatter = NSNumberFormatter()
+        formatter.numberStyle = .CurrencyStyle
+        tipLabel.text = formatter.stringFromNumber(Double(tip)/100)
+        effectivePercentLabel.text = "%\(Int(effectivePercent * 100))"
+        totalLabel.text = formatter.stringFromNumber(Double(total)/100)
+    }
+    
     func isPalindrome(string: String) -> Bool {
-        let gnirts = String(string.characters.reverse())
-        return gnirts == string
+        if(!palindromeMode) {
+            return true
+        }
+        
+        let reversed = String(string.characters.reverse())
+        return reversed == string
     }
     
     func isChecksum(number: Int) -> Bool {
+        if(!checksumMode) {
+            return true
+        }
+        
         let pennies = number % 10
         var accumulator = 0
         var remainder = number / 10
