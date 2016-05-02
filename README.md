@@ -5,6 +5,8 @@ Demo Swift tip calculating app.
 
 At its most core functionality, it calculates a tip for 20, 22, or 25 percent. Spec said 15, 20, and 22 percent, but we're better than that.
 
+![Screenshot](https://github.com/philihp/kazantip/raw/master/Kazantip.gif)
+
 Bonus Features!
 --------------
 
