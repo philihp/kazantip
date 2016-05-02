@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E17B3CB1CD6AD290099B0DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E17B3CA1CD6AD290099B0DD /* AppDelegate.swift */; };
+		2E17B3CD1CD6AD290099B0DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E17B3CC1CD6AD290099B0DD /* ViewController.swift */; };
+		2E17B3D01CD6AD290099B0DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E17B3CE1CD6AD290099B0DD /* Main.storyboard */; };
+		2E17B3D21CD6AD290099B0DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E17B3D11CD6AD290099B0DD /* Assets.xcassets */; };
+		2E17B3D51CD6AD290099B0DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E17B3D31CD6AD290099B0DD /* LaunchScreen.storyboard */; };
+		2E17B3E01CD6AD2A0099B0DD /* kazantipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E17B3DF1CD6AD2A0099B0DD /* kazantipTests.swift */; };
+		2E17B3EB1CD6AD2A0099B0DD /* kazantipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E17B3EA1CD6AD2A0099B0DD /* kazantipUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E17B3DC1CD6AD2A0099B0DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E17B3BF1CD6AD290099B0DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E17B3C61CD6AD290099B0DD;
+			remoteInfo = kazantip;
+		};
+		2E17B3E71CD6AD2A0099B0DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E17B3BF1CD6AD290099B0DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E17B3C61CD6AD290099B0DD;
+			remoteInfo = kazantip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E17B3C71CD6AD290099B0DD /* Kazantip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kazantip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E17B3CA1CD6AD290099B0DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E17B3CC1CD6AD290099B0DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E17B3CF1CD6AD290099B0DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E17B3D11CD6AD290099B0DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E17B3D41CD6AD290099B0DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E17B3D61CD6AD290099B0DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E17B3DB1CD6AD2A0099B0DD /* kazantipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kazantipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E17B3DF1CD6AD2A0099B0DD /* kazantipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kazantipTests.swift; sourceTree = "<group>"; };
+		2E17B3E11CD6AD2A0099B0DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E17B3E61CD6AD2A0099B0DD /* kazantipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kazantipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E17B3EA1CD6AD2A0099B0DD /* kazantipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kazantipUITests.swift; sourceTree = "<group>"; };
+		2E17B3EC1CD6AD2A0099B0DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E17B3C41CD6AD290099B0DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E17B3D81CD6AD2A0099B0DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E17B3E31CD6AD2A0099B0DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E17B3BE1CD6AD290099B0DD = {
+			isa = PBXGroup;
+			children = (
+				2E17B3C91CD6AD290099B0DD /* kazantip */,
+				2E17B3DE1CD6AD2A0099B0DD /* kazantipTests */,
+				2E17B3E91CD6AD2A0099B0DD /* kazantipUITests */,
+				2E17B3C81CD6AD290099B0DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E17B3C81CD6AD290099B0DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E17B3C71CD6AD290099B0DD /* Kazantip.app */,
+				2E17B3DB1CD6AD2A0099B0DD /* kazantipTests.xctest */,
+				2E17B3E61CD6AD2A0099B0DD /* kazantipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E17B3C91CD6AD290099B0DD /* kazantip */ = {
+			isa = PBXGroup;
+			children = (
+				2E17B3CA1CD6AD290099B0DD /* AppDelegate.swift */,
+				2E17B3CC1CD6AD290099B0DD /* ViewController.swift */,
+				2E17B3CE1CD6AD290099B0DD /* Main.storyboard */,
+				2E17B3D11CD6AD290099B0DD /* Assets.xcassets */,
+				2E17B3D31CD6AD290099B0DD /* LaunchScreen.storyboard */,
+				2E17B3D61CD6AD290099B0DD /* Info.plist */,
+			);
+			path = kazantip;
+			sourceTree = "<group>";
+		};
+		2E17B3DE1CD6AD2A0099B0DD /* kazantipTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E17B3DF1CD6AD2A0099B0DD /* kazantipTests.swift */,
+				2E17B3E11CD6AD2A0099B0DD /* Info.plist */,
+			);
+			path = kazantipTests;
+			sourceTree = "<group>";
+		};
+		2E17B3E91CD6AD2A0099B0DD /* kazantipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E17B3EA1CD6AD2A0099B0DD /* kazantipUITests.swift */,
+				2E17B3EC1CD6AD2A0099B0DD /* Info.plist */,
+			);
+			path = kazantipUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E17B3C61CD6AD290099B0DD /* kazantip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E17B3EF1CD6AD2A0099B0DD /* Build configuration list for PBXNativeTarget "kazantip" */;
+			buildPhases = (
+				2E17B3C31CD6AD290099B0DD /* Sources */,
+				2E17B3C41CD6AD290099B0DD /* Frameworks */,
+				2E17B3C51CD6AD290099B0DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kazantip;
+			productName = kazantip;
+			productReference = 2E17B3C71CD6AD290099B0DD /* Kazantip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E17B3DA1CD6AD2A0099B0DD /* kazantipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E17B3F21CD6AD2A0099B0DD /* Build configuration list for PBXNativeTarget "kazantipTests" */;
+			buildPhases = (
+				2E17B3D71CD6AD2A0099B0DD /* Sources */,
+				2E17B3D81CD6AD2A0099B0DD /* Frameworks */,
+				2E17B3D91CD6AD2A0099B0DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E17B3DD1CD6AD2A0099B0DD /* PBXTargetDependency */,
+			);
+			name = kazantipTests;
+			productName = kazantipTests;
+			productReference = 2E17B3DB1CD6AD2A0099B0DD /* kazantipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E17B3E51CD6AD2A0099B0DD /* kazantipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E17B3F51CD6AD2A0099B0DD /* Build configuration list for PBXNativeTarget "kazantipUITests" */;
+			buildPhases = (
+				2E17B3E21CD6AD2A0099B0DD /* Sources */,
+				2E17B3E31CD6AD2A0099B0DD /* Frameworks */,
+				2E17B3E41CD6AD2A0099B0DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E17B3E81CD6AD2A0099B0DD /* PBXTargetDependency */,
+			);
+			name = kazantipUITests;
+			productName = kazantipUITests;
+			productReference = 2E17B3E61CD6AD2A0099B0DD /* kazantipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E17B3BF1CD6AD290099B0DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Philihp Busby";
+				TargetAttributes = {
+					2E17B3C61CD6AD290099B0DD = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = T2ZUL5SY47;
+					};
+					2E17B3DA1CD6AD2A0099B0DD = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = T2ZUL5SY47;
+						TestTargetID = 2E17B3C61CD6AD290099B0DD;
+					};
+					2E17B3E51CD6AD2A0099B0DD = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = T2ZUL5SY47;
+						TestTargetID = 2E17B3C61CD6AD290099B0DD;
+					};
+				};
+			};
+			buildConfigurationList = 2E17B3C21CD6AD290099B0DD /* Build configuration list for PBXProject "kazantip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E17B3BE1CD6AD290099B0DD;
+			productRefGroup = 2E17B3C81CD6AD290099B0DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E17B3C61CD6AD290099B0DD /* kazantip */,
+				2E17B3DA1CD6AD2A0099B0DD /* kazantipTests */,
+				2E17B3E51CD6AD2A0099B0DD /* kazantipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E17B3C51CD6AD290099B0DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E17B3D51CD6AD290099B0DD /* LaunchScreen.storyboard in Resources */,
+				2E17B3D21CD6AD290099B0DD /* Assets.xcassets in Resources */,
+				2E17B3D01CD6AD290099B0DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E17B3D91CD6AD2A0099B0DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E17B3E41CD6AD2A0099B0DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E17B3C31CD6AD290099B0DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E17B3CD1CD6AD290099B0DD /* ViewController.swift in Sources */,
+				2E17B3CB1CD6AD290099B0DD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E17B3D71CD6AD2A0099B0DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E17B3E01CD6AD2A0099B0DD /* kazantipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E17B3E21CD6AD2A0099B0DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E17B3EB1CD6AD2A0099B0DD /* kazantipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E17B3DD1CD6AD2A0099B0DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E17B3C61CD6AD290099B0DD /* kazantip */;
+			targetProxy = 2E17B3DC1CD6AD2A0099B0DD /* PBXContainerItemProxy */;
+		};
+		2E17B3E81CD6AD2A0099B0DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E17B3C61CD6AD290099B0DD /* kazantip */;
+			targetProxy = 2E17B3E71CD6AD2A0099B0DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E17B3CE1CD6AD290099B0DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E17B3CF1CD6AD290099B0DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E17B3D31CD6AD290099B0DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E17B3D41CD6AD290099B0DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E17B3ED1CD6AD2A0099B0DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E17B3EE1CD6AD2A0099B0DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E17B3F01CD6AD2A0099B0DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kazantip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.philihp.kazantip;
+				PRODUCT_NAME = Kazantip;
+			};
+			name = Debug;
+		};
+		2E17B3F11CD6AD2A0099B0DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kazantip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.philihp.kazantip;
+				PRODUCT_NAME = Kazantip;
+			};
+			name = Release;
+		};
+		2E17B3F31CD6AD2A0099B0DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kazantipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.philihp.kazantipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kazantip.app/kazantip";
+			};
+			name = Debug;
+		};
+		2E17B3F41CD6AD2A0099B0DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kazantipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.philihp.kazantipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kazantip.app/kazantip";
+			};
+			name = Release;
+		};
+		2E17B3F61CD6AD2A0099B0DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kazantipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.philihp.kazantipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kazantip;
+			};
+			name = Debug;
+		};
+		2E17B3F71CD6AD2A0099B0DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kazantipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.philihp.kazantipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kazantip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E17B3C21CD6AD290099B0DD /* Build configuration list for PBXProject "kazantip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E17B3ED1CD6AD2A0099B0DD /* Debug */,
+				2E17B3EE1CD6AD2A0099B0DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E17B3EF1CD6AD2A0099B0DD /* Build configuration list for PBXNativeTarget "kazantip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E17B3F01CD6AD2A0099B0DD /* Debug */,
+				2E17B3F11CD6AD2A0099B0DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E17B3F21CD6AD2A0099B0DD /* Build configuration list for PBXNativeTarget "kazantipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E17B3F31CD6AD2A0099B0DD /* Debug */,
+				2E17B3F41CD6AD2A0099B0DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E17B3F51CD6AD2A0099B0DD /* Build configuration list for PBXNativeTarget "kazantipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E17B3F61CD6AD2A0099B0DD /* Debug */,
+				2E17B3F71CD6AD2A0099B0DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E17B3BF1CD6AD290099B0DD /* Project object */;
+}
