@@ -65,7 +65,7 @@ class ViewController: UIViewController {
             total = subTotal + tip
         }
         
-        if(youngJeezyMode) {
+        if(youngJeezyMode && total % 2000 != 0) {
             tip += 2000 - total % 2000
             total = subTotal + tip
         }
