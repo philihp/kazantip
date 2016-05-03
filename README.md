@@ -10,8 +10,8 @@ At its most core functionality, it calculates a tip for 20, 22, or 25 percent. S
 * [ ] Optional: UI animations
 * [ ] Optional: Remembering the bill amount across app restarts (if <10mins)
 * [x] Optional: Using locale-specific currency and currency thousands separators.
-* [x] Optional: Light/Dark Themes (Not selectable, just Kazan, because there are no other kinds of Kazan)
-* [ ] Optional: Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [x] Optional: Light/Dark Themes
+* [x] Optional: Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 ![Screenshot](https://github.com/philihp/kazantip/raw/master/Kazantip.gif)
 
