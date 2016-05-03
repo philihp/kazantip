@@ -24,6 +24,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         subtotalText.becomeFirstResponder()
+        
         refresh()
     }
     
@@ -37,6 +38,11 @@ class ViewController: UIViewController {
         palindromeMode = defaults.boolForKey("palindrome")
         youngJeezyMode = defaults.boolForKey("youngJeezyMode")
         lightTheme = defaults.boolForKey("lightTheme")
+
+        if(wasLastRunRecently()) {
+            subtotalText.text = defaults.stringForKey("lastSubtotalText")
+        }
+
         updateTheme()
         
         refresh()
@@ -84,6 +90,11 @@ class ViewController: UIViewController {
         tipLabel.text = formatter.stringFromNumber(Double(tip)/100)
         effectivePercentLabel.text = "%\(Int(effectivePercent * 100))"
         totalLabel.text = formatter.stringFromNumber(Double(total)/100)
+        
+        
+        let defaults = NSUserDefaults.standardUserDefaults()
+        defaults.setObject(subtotalText.text, forKey: "lastSubtotalText")
+        defaults.synchronize()
     }
     
     func isPalindrome(string: String) -> Bool {
@@ -114,6 +125,13 @@ class ViewController: UIViewController {
                 }
             }
         }
+    }
+    
+    func wasLastRunRecently() -> Bool {
+        let defaults = NSUserDefaults.standardUserDefaults()
+        let lastrun = defaults.objectForKey("lastrun")
+        defaults.setObject(NSDate(), forKey: "lastrun")
+        return (lastrun?.timeIntervalSinceNow <= 600)
     }
     
     func isChecksum(number: Int) -> Bool {
