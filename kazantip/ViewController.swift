@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     var checksumMode: Bool = false
     var palindromeMode: Bool = false
     var youngJeezyMode: Bool = false
+    var lightTheme: Bool = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,6 +35,8 @@ class ViewController: UIViewController {
         checksumMode = defaults.boolForKey("checksum")
         palindromeMode = defaults.boolForKey("palindrome")
         youngJeezyMode = defaults.boolForKey("youngJeezyMode")
+        lightTheme = defaults.boolForKey("lightTheme")
+        updateTheme()
         
         refresh()
     }
@@ -89,6 +92,27 @@ class ViewController: UIViewController {
         
         let reversed = String(string.characters.reverse())
         return reversed == string
+    }
+    
+    func updateTheme() {
+        if(lightTheme) {
+            self.view.backgroundColor = UIColor.pinkColor()
+            tipSegmentedControl.tintColor = UIColor.tealColor()
+            for view in self.view.subviews as [UIView] {
+                if let label = view as? UILabel {
+                    label.textColor = UIColor.blackColor()
+                }
+            }
+        }
+        else {
+            self.view.backgroundColor = UIColor.kazanColor()
+            tipSegmentedControl.tintColor = UIColor.babuColor()
+            for view in self.view.subviews as [UIView] {
+                if let label = view as? UILabel {
+                    label.textColor = UIColor.whiteColor()
+                }
+            }
+        }
     }
     
     func isChecksum(number: Int) -> Bool {

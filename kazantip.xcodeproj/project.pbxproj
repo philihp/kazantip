@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E14ED001CD86EF800463104 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E14ECFF1CD86EF800463104 /* Colors.swift */; };
 		2E17B3CB1CD6AD290099B0DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E17B3CA1CD6AD290099B0DD /* AppDelegate.swift */; };
 		2E17B3CD1CD6AD290099B0DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E17B3CC1CD6AD290099B0DD /* ViewController.swift */; };
 		2E17B3D01CD6AD290099B0DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E17B3CE1CD6AD290099B0DD /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E14ECFF1CD86EF800463104 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		2E17B3C71CD6AD290099B0DD /* Kazantip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kazantip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E17B3CA1CD6AD290099B0DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E17B3CC1CD6AD290099B0DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				2E17B3D11CD6AD290099B0DD /* Assets.xcassets */,
 				2E17B3D31CD6AD290099B0DD /* LaunchScreen.storyboard */,
 				2E17B3D61CD6AD290099B0DD /* Info.plist */,
+				2E14ECFF1CD86EF800463104 /* Colors.swift */,
 			);
 			path = kazantip;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E17B3CD1CD6AD290099B0DD /* ViewController.swift in Sources */,
+				2E14ED001CD86EF800463104 /* Colors.swift in Sources */,
 				2E17B3CB1CD6AD290099B0DD /* AppDelegate.swift in Sources */,
 				2E17B3F91CD70C6D0099B0DD /* SettingsViewController.swift in Sources */,
 			);
@@ -489,6 +493,7 @@
 				2E17B3F11CD6AD2A0099B0DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E17B3F21CD6AD2A0099B0DD /* Build configuration list for PBXNativeTarget "kazantipTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +502,7 @@
 				2E17B3F41CD6AD2A0099B0DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E17B3F51CD6AD2A0099B0DD /* Build configuration list for PBXNativeTarget "kazantipUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +511,7 @@
 				2E17B3F71CD6AD2A0099B0DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
