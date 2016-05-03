@@ -5,6 +5,16 @@ Demo Swift tip calculating app.
 
 At its most core functionality, it calculates a tip for 20, 22, or 25 percent. Spec said 15, 20, and 22 percent, but we're better than that.
 
+* [x] Required: User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [x] Required: Settings page to change the default tip percentage.
+* [ ] Optional: UI animations
+* [ ] Optional: Remembering the bill amount across app restarts (if <10mins)
+* [x] Optional: Using locale-specific currency and currency thousands separators.
+* [x] Optional: Light/Dark Themes (Not selectable, just Kazan, because there are no other kinds of Kazan)
+* [ ] Optional: Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+
+![Screenshot](https://github.com/philihp/kazantip/raw/master/Kazantip.gif)
+
 Bonus Features!
 --------------
 
@@ -15,7 +25,5 @@ Bonus Features!
 * Young Jeezy Mode - This mode is exclusive to the above two modes. It will add a minimum amount of tip such that your total will payable in twenties. Since your pennies then would always be zero, you can't add a checksum. It should always be conceivable to create a palindrome multiple of twenty, but sometimes this tip may be extraordinarily high.
 
 * Effective Tip - Because the tip added to your base percentage tip may be significant, an effective percentage tipped is displayed.
-
-* Localized! Currency amounts are formatted in the local iPhone's currency, and digit groupings in the current locale's style.
 
 * App icon!
